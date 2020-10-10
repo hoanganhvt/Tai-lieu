@@ -1,6 +1,5 @@
 #include<iostream>
-#include<string>
-#include<vector>
+
 using namespace std;
 int sum(int N){
 	int cnt  = 0;
