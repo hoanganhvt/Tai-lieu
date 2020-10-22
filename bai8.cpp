@@ -1,7 +1,9 @@
 #include<iostream>
 #include<string>
 using namespace std;
-
+/*
+Cho 2 xâu A,B tìm xâu q có độ dài lớn nhất sao cho tồn tại 2 số nguyên i,j để A = q^i; B = q^j
+*/
 
 string LPS(string s){
     int L = s.length();
