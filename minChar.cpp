@@ -13,7 +13,7 @@ int mySortType(int i,int j){
 }
 int minNum(string str,int k){
     for(int i = 0; i < str.size();i++){
-        int index = 97-int(str[i]);
+        int index = int(str[i])-97;
         if(X[index] == 0){
            T += 1;
            existNigga.push_back(index);
